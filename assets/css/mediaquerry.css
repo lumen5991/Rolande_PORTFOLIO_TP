@@ -1,0 +1,55 @@
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .accueil
+    {
+        padding: 10px 40px;
+    }
+}
+
+@media(max-width:991px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+    body{
+        padding: 0;
+    }
+
+
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    } 
+}
+
+@media(max-width:400px){
+    header{
+        width: 100vw;
+    } 
+    .heading{
+        margin: 0 30px;
+    }
+    .apropos .row .counter .box{
+        width: 100%;
+    }
+    .competences .box-container .box{
+        width: 100%;
+    }
+    .portfolio .box-container .box{
+        width: 100%;
+    }
+    .contact .row form{
+        margin: 30px 0;
+    }
+    
+}
+
